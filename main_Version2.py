@@ -233,7 +233,7 @@ class MainMenu(QWidget):
         contact_layout.addWidget(contact_btn)
         layout.addLayout(contact_layout)
 
-        contact_info = QLabel("For support or feedback, email: hira@example.com")
+        contact_info = QLabel("For support or feedback, email: hirafuyu2003@gmail.com")
         contact_info.setAlignment(Qt.AlignCenter)
         contact_info.setStyleSheet("color:#a259ff; font-size:15px; margin-top:0; margin-bottom:8px;")
         layout.addWidget(contact_info)
@@ -250,7 +250,7 @@ class MainMenu(QWidget):
         QApplication.quit()
     def contact_me(self):
         self.parent.sound_manager.play_button()
-        QMessageBox.information(self, "Contact Developer", "Contact Hira\nEmail: hira@example.com")
+        QMessageBox.information(self, "Contact Developer", "Contact Hira\nEmail: hirafuyu2003@gmail.com")
 
 class LevelsPage(QWidget):
     def __init__(self, parent, unlocked_level):
